@@ -28,6 +28,6 @@ Utilize Tableau or Power BI to create a comprehensive dashboard that presents ke
 **Dashboard Picture**
 ![Airbnb_Tableau](https://github.com/Shamely92/Airbnb_analysis/assets/143785930/e4c33c51-b615-4db9-b062-0be478682c17)
 
-**Click here to view my Dashboard:** https://public.tableau.com/views/Air_16986591797480/Dashboard1?:language=en-GB&publish=yes&:display_count=n&:origin=viz_share_link
+**Click here to view my Dashboard:** [Tableau Dashboard](https://public.tableau.com/views/Air_16986591797480/Dashboard1?:language=en-GB&publish=yes&:display_count=n&:origin=viz_share_link)
 
 
