@@ -1,4 +1,3 @@
-# Importing Libraries
 import pandas as pd
 import pymongo
 import streamlit as st
@@ -6,7 +5,6 @@ import plotly.express as px
 from streamlit_option_menu import option_menu
 from PIL import Image
 
-# Setting up page configuration
 st.set_page_config(page_title= "Airbnb Data Visualization",
                    layout= "wide",
                    initial_sidebar_state= "expanded"
@@ -23,11 +21,10 @@ with st.sidebar:
                           )
 
 # CREATING CONNECTION WITH MONGODB ATLAS AND RETRIEVING THE DATA
-client = pymongo.MongoClient("mongodb+srv://reshma:sijosurya1234@cluster0.m7ggmbk.mongodb.net/")
+client = pymongo.MongoClient("mongodb+srv://reshma:********@cluster0.m7ggmbk.mongodb.net/")
 db = client.sample_airbnb
 col = db.listingsAndReviews
 
-# READING THE CLEANED DATAFRAME
 df = pd.read_csv('Airbnb_data.csv')
 
 # HOME PAGE
@@ -39,8 +36,7 @@ if selected == "Home":
     col1.markdown("## :blue[Overview] : To analyze Airbnb data using MongoDB Atlas, perform data cleaning and preparation, develop interactive visualizations, and create dynamic plots to gain insights into pricing variations, availability patterns, and location-based trends. ")
     col2.markdown("#   ")
     col2.markdown("#   ")
-    #col2.image("home.jpg")
-    
+        
 # OVERVIEW PAGE
 if selected == "Overview":
     tab1,tab2 = st.tabs(["$\huge 📝 RAW DATA $", "$\huge🚀 INSIGHTS $"])
