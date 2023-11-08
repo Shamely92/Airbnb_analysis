@@ -26,7 +26,7 @@ Use the cleaned data to analyze and visualize how prices vary across different l
 Utilize Tableau or Power BI to create a comprehensive dashboard that presents key insights from your analysis. Combine different visualizations, such as maps, charts, and tables, to provide a holistic view of the Airbnb dataset and its patterns.
 
 **Dashboard Picture**
-![Airbnb_Tableau](https://github.com/Shamely92/Airbnb_analysis/assets/143785930/e4c33c51-b615-4db9-b062-0be478682c17)
+![Airbnb_Tableau](https://github.com/Shamely92/Airbnb_analysis/assets/143785930/6cb982c9-587c-47ec-ab02-8b7354bf8545)
 
 **Click here to view my Dashboard:** [Tableau Dashboard](https://public.tableau.com/views/Air_16986591797480/Dashboard1?:language=en-GB&publish=yes&:display_count=n&:origin=viz_share_link)
 
